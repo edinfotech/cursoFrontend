@@ -1,0 +1,17 @@
+
+body{
+    background-color:#000000;
+    color:aqua;
+}
+h1{
+    color:red;
+    font-size:60px; 
+}
+img {
+    width: 200px;
+}
+.teste {
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
