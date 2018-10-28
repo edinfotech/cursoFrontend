@@ -1,0 +1,172 @@
+* {
+  font-family: arial,verdana;  
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color:aqua;
+}
+
+img {
+    width: 90px;
+    margin-right: 17px
+}
+.topo {
+    height: 50px;
+    background-color: black;
+    margin-top:0;
+  
+}
+    
+.cabecalho {
+    height: 50px;
+    width: 1000px;
+     background-color: black;
+    margin: auto; 
+    position: fixed;
+    
+}
+.logo{
+    float: left;
+    font-size:24px;
+    line-height: 50px;
+}
+.menu{
+    float: right;
+}
+.menu ul,menu li{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.menu li{
+    float: left;
+    padding-left:10px;
+    padding-right: 10px;
+    line-height: 50px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.menu li:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.banner{
+    height: 300px;
+   background-color: white;
+    margin-top: 10px;
+}
+.bannerInterno{
+    width: 900px;
+    margin: auto;
+}
+.bannerDir{
+    float: left;
+   
+   
+}
+
+.frase1{
+     line-height:20px;
+    font-size:14px; 
+    font-style: italic;
+    color: black;
+    width: 300px;
+    text-align: center;
+}
+.frase1 p{
+   font-size:20px; 
+    font-style: italic;
+    color: red; 
+}
+.bannerEsq{
+    float: right;
+}
+.bannerEsq img{
+    width: 200px;
+    
+    margin-top: 100px;
+}
+
+.conteudo{
+    width: 900px;
+    height: 400px;
+   
+    margin: auto;
+    
+   
+}
+
+.servicos{
+    width: 900px;
+    
+    
+}
+
+.titulo{
+    text-align: center;
+    color: aqua;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+.produtos img{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.produto1{
+    float: left;
+}
+
+.texto1{
+    float:left;
+    margin-left: 5px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+.texto1 h3{
+    
+    margin-left: 5px;
+}
+.produtos2 img{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 200px;
+    height: 200px;
+    float: left;
+   
+}
+
+
+.produto2{
+    float: left;
+}
+
+.texto2{
+    float:left;
+    margin-left: 5px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+.texto2 h3{
+    
+    margin-left: 1px;
+}
+.rodape {
+    width: 90%;
+    height: 80px;
+    background-color:black;
+    margin: auto;
+    text-align: center;
+    }
+
+
