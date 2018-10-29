@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    color:aqua;
+}
+.topo{
+    width: 100%;
+    max-width:800px;
+    height: 50px;
+    margin: auto;
+}
+.logo{
+    width:50%;
+    height: 50px;
+    float: left;
+    background-color:black;
+}
+.logo img{
+    float: left;
+    width:70px; 
+}
+.logo2{
+    float: left;
+    font-size:24px;
+    line-height: 50px;
+}
+.menu{
+    
+    width: 50%;
+    height: 50px;
+    float: left;
+    background-color:black;
+}
+.menu ul,menu li{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.menu li{
+    float: left;
+    padding-left:10px;
+    padding-right: 10px;
+    line-height: 50px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.menu li:hover{
+    background-color: aqua;
+    color: black;
+}
+.corpo{
+    width: 100%;
+    max-width: 800px;
+    height: 200px;
+    margin: auto;
+    background-color: antiquewhite;
+}
+.rodape{
+    width: 100%;
+    max-width: 800px;
+    height: 100px;
+    margin: auto;
+}
+@media only screen and (max-width:500px){
+    
+    .topo{
+        
+        height: 200px;
+    }
+    .logo{
+        width: 100%;
+    }
+    .logo img{
+        width:50px;
+    }
+    .menu{
+        width: 100%;
+    }
+    
+}
