@@ -1,0 +1,65 @@
+{  
+   "OrderNumber":"Pedido01",
+   "SoftDescriptor":"Exemplo",
+   "Cart":{  
+      "Discount":{  
+         "Type":"Percent",
+         "Value":00
+      },
+      "Items":[  
+         {  
+            "Name":"Produto01",
+            "Description":"ProdutoExemplo01",
+            "UnitPrice":100,
+            "Quantity":1,
+            "Type":"Asset",
+            "Sku":"ABC001",
+            "Weight":500
+         },
+        ]
+   },
+   "Shipping":{  
+      "SourceZipCode":"20020080",
+      "TargetZipCode":"21911130",
+      "Type":"FixedAmount",
+      "Services":[  
+         {  
+            "Name":"Motoboy",
+            "Price":1,
+            "Deadline":15,
+            "Carrier":null
+         },
+         {  
+            "Name":"UPS Express",
+            "Price":1,
+            "Deadline":2,
+            "Carrier":null
+         }
+      ],
+      "Address":{  
+         "Street":"Rua Cambui",
+         "Number":"92",
+         "Complement":"Apto 201",
+         "District":"Freguesia",
+         "City":"Rio de Janeiro",
+         "State":"RJ"
+      }
+   },
+   "Payment":{  
+      "BoletoDiscount":15,
+      "DebitDiscount":10,
+      "Installments":null,
+      "MaxNumberOfInstallments": null
+   },
+   "Customer":{  
+      "Identity":"84261300206",
+      "FullName":"Test de Test",
+      "Email":"test@cielo.com.br",
+      "Phone":"21987654321"
+   },
+   "Options":{  
+     "AntifraudEnabled":true,
+     "ReturnUrl": "http://www.cielo.com.br"
+   },
+   "Settings":null
+}

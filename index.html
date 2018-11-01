@@ -3,52 +3,153 @@
     
     <head>
         <meta charset="utf-8">
+        <meta id="viewport"  name="viewport"content="width=device-width">
+        <title>Editech Tecnologia </title>
         
-        <title>Exercicio 1</title>
+        <!-- CSS -->
+        <link href="assets/css/style3.css" rel="stylesheet" />
+        
+         <!-- Java Script -->
+        <script type="text/javascript" src="assets/js/script.js"></script>
         
     </head>
     
     <body>
-        <div align="center">
-        <img src="img/logoEmpresa.png">
-     
-       <h1> Exercicio 1 </h1>
+        <div class="head">
+            <div class="headint">
+                <div class="social">
+              <a href="/" ><img src="assets/img/facebook.png" /></a>
+              <a href="/" ><img src="assets/img/instagran.png" /></a>
+              <a href="/" ><img src="assets/img/whats.png" /></a>
             </div>
-        <p>Lista nao ordenada:</p>
-     <ul>
-      <li> <p>Texto com paragrafo</p></li> 
-      <li>  Texto com <br/>quebra de linha </li> 
-      <li>  <prev>Texto com tag prev </prev></li> 
-      <li>   <strong>Texto em negrito</strong></li> 
-      <li>  <u>Texto com underline</u></li> 
-      <li>   <i>texto com italico</i></li> 
-    </ul>
-        <p>Lista ordenada:Numerico</p>
-    <ol>
-      <li> <p>Texto com paragrafo</p></li> 
-      <li>  Texto com <br/>quebra de linha </li> 
-      <li>  <prev>Texto com tag prev </prev></li> 
-      <li>   <strong>Texto em negrito</strong></li> 
-      <li>  <u>Texto com underline</u></li> 
-      <li>   <i>texto com italico</i></li> 
-    </ol>
-           <p>Lista ordenada:alfanumerica</p>
-    <ol type="A">
-      <li> <p>Texto com paragrafo</p></li> 
-      <li>  Texto com <br/>quebra de linha </li> 
-      <li>  <prev>Texto com tag prev </prev></li> 
-      <li>   <strong>Texto em negrito</strong></li> 
-      <li>  <u>Texto com underline</u></li> 
-      <li>   <i>texto com italico</i></li> 
-    </ol>
-          <p>Lista ordenada:N romano</p>
-    <ol type="I">
-      <li> <p>Texto com paragrafo</p></li> 
-      <li>  Texto com <br/>quebra de linha </li> 
-      <li>  <prev>Texto com tag prev </prev></li> 
-      <li>   <strong>Texto em negrito</strong></li> 
-      <li>  <u>Texto com underline</u></li> 
-      <li>   <i>texto com italico</i></li> 
-    </ol>
+            
+            </div>
+        </div>
+        <div class="topo">
+            <div class="logo">
+            <img src="assets/img/logo.jpg" />
+                <div class="logo2">
+                    <h2> EdiTech Tecnologia</h2>
+                </div>
+            </div>
+            <div class="menu">
+                  <ul>
+                  <li><a href="home">Home</a></li>
+                  <li><a href="servicos">Serviços</a>
+                      <div class="submenu">
+                      <a href="./"><div class="submenuitem">Sub menu 1</div></a>
+                      <a href="./"><div class="submenuitem">Sub menu 2</div></a>
+                      <a href="./"><div class="submenuitem">Sub menu 3</div></a>
+                      </div>
+                      </li>
+                  <li><a href="contato">Contato</a></li>
+                  <li><a href="sobre">Sobre</a></li>
+                  </ul>
+            </div>
+        </div>
+        <div class="ultimasnoticias">
+                <div class="ultimasnoticiasint">
+                    <div class="ultimasnoticiasarea">
+                       <div class="ultimasnoticiastitulo">
+                        Ultimas Noticias
+                        </div>
+                        <div class="ultimasnoticiasnoticias">
+                            Bolsonaro é eleito Presidente do Brasil!
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="container">
+            <div class="containerint">
+              <div class="leftside">
+                <div class="slideshow" id="slideshow">
+                    <div class="slidebolinhas">
+                    <div class="bolinha" onclick="mudarSlide(0)"></div>
+                    <div class="bolinha" onclick="mudarSlide(1)"></div>
+                    <div class="bolinha" onclick="mudarSlide(2)"></div>
+                    <div class="bolinha" onclick="mudarSlide(3)"></div>
+                 </div>
+                    <div class="slideshowarea">
+                        <div class="slide" style="background-image: url(assets/img/noticia3.jpg)">
+                        
+                            <div class="slideinfo">
+                                <a href="./"> <div class="slideinfo_titulo">PF prende presidente da estatal que administra o Porto de Santos</div></a>
+                            <div class="slideinfo_subtitulo">José Alex Oliva e outros integrantes da cúpula da Codesp são investigados por fraudes.</div>    
+                            </div>
+                        </div>
+                        <div class="slide" style="background-image: url(assets/img/noticia4.jpg)">
+                          <div class="slideinfo">
+                           <a href="./"> <div class="slideinfo_titulo">CASO RAYANE : Segurança é preso e confessa que matou garota em SP, diz polícia</div></a>
+                            <div class="slideinfo_subtitulo">Adolescente foi assassinada após pegar carona ao deixar festa em Mogi das Cruzes.</div>    
+                            </div>
+                        
+                        </div>
+                        <div class="slide" style="background-image: url(assets/img/noticia5.jpg)">
+                          <div class="slideinfo">
+                           <a href="./"> <div class="slideinfo_titulo">EUA : Casal morre ao tirar selfie em penhasco nos EUA</div></a>
+                            <div class="slideinfo_subtitulo">Corpos foram encontrados abaixo de mirante em parque na Califórnia.</div>    
+                            </div>
+                        </div>
+                        <div class="slide" style="background-image: url(assets/img/noticia6.jpg)">
+                          <div class="slideinfo">
+                          <a href="./">  <div class="slideinfo_titulo">Fique atento: 6 erros que podem zerar sua redação do Enem</div></a>
+                            <div class="slideinfo_subtitulo">10 temas de redação que NÃO devem cair na prova</div>    
+                            </div>
+                        </div>
+                    </div>
+                    
+                  </div>
+                
+						
+					
+                <div class="video">
+                <video src="assets/img/PiqueNovo.mp4" controls />
+                </div>
+				</div>
+                
+               
+              <div class="rightside">
+                <div class="widget">
+                  <div class="widget_titulo">Social</div>
+                    <div class="widget_conteudo">
+                      
+            <a href="/" ><img src="assets/img/facebook.png" border="0" width="30"; height="30px"; /></a>
+                          <a href="/" ><img src="assets/img/instagran.png" width="30"; height="30px" border="0"/></a>
+                          <a href="/" ><img src="assets/img/whats.png" width="30"; height="30px" border="0" /></a>
+                       
+                    </div>
+                  </div>
+                  <div class="widget">
+                  <div class="widget_titulo">Ulimas noticias</div>
+                    <div class="widget_noticia">
+                        <img src="assets/img/noticia.jpg" />
+                        <strong> JUIZ PODE VIRAR MINISTRO</strong><br/>
+                      <a href="https://www1.folha.uol.com.br/colunas/monicabergamo/2018/10/defesa-de-lula-deve-usar-convite-de-bolsonaro-a-moro-em-tese-de-parcialidade.shtml" target="_blank">Defesa de Lula deve usar convite de Bolsonaro a Moro em tese de parcialidade</a>
+                        <div class="widget_noticia">
+                        <img src="assets/img/noticia2.jpg" />
+                            <strong>DEMITIDO DO ESTÁGIO</strong><br/>
+                            <a href="https://www1.folha.uol.com.br/cotidiano/2018/10/foi-uma-fala-completamente-infeliz-diz-estudante-que-ameacou-matar-negraiada.shtml">'Foi uma fala infeliz', diz estudante que fez ofensa racista em vídeo</a>    
+                        
+                        </div> 
+                      </div>
+                  </div>
+                <div class="widget">
+                  <div class="widget_titulo">Publicidade</div>
+                    <div class="widget_conteudo">
+                        <img src="assets/img/publicidade.png" width="250" height="200"/>
+                    </div>
+                  </div>
+                </div>    
+            </div>
+        
+        
+        </div>
+        <div class="rodape">
+            <p>Copyright © 2018 Desenvolvido por EDITECH TECNOLOGIA</p>
+
+            <p> Av Dr Roberto de almeida vinhas nº26085 Vila Mirim-Praia Grande-SP Tel:(13)3594-7594 / (13)99678-5900</p>
+
+            <p>manariconstrucaoereforma@bol.com.br</p>
+        </div>
     </body>
 </html>
